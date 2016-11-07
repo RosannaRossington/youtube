@@ -49,4 +49,4 @@ Setting a height is required, otherwise browsers will render the iframe at a sta
 Option 1
 Wrap the video in another element which has an intrinsic aspect ratio(__Aspect ratio is the relationship of the width of a video image compared to its height. The two most common aspect ratios are 4:3, also known as 1.33:1 or fullscreen, and 16:9, also known as 1.78:1 or widescreen.__(With intrinsic dimensions, a new width triggers a new height calculation, allowing videos to resize and giving them the ability to scale the same way images do.) ), then absolute position the video within that. That gives us fluid width with a reasonable height.
 
-However lots of classes are needed to adjust different videos.
+However lots of classes are needed to adjust different videos. If so see the JavaScript solution.

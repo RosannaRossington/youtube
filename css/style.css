@@ -1,17 +1,138 @@
 body {
-  background-color: red;
+  background-color: black;
 }
 
+/*position relative means all child will be relative to container. Note that the height of the chrome is static: it is 25 pixels tall, regardless of the dimensions of the video. */
 .videoWrapper {
   position: relative;
   padding-bottom: 56.25%; /* 16:9 */
   padding-top: 25px;
   height: 0;
+  border: red 2px solid;
+
 }
+/*The padding property is what styles a box with an intrinsic ratio. This is because setting the padding in a percentage, based on the width of the containing block.*/
+
+/*position frees the element from the height boundary of its parent. This way, it can be positioned over the “padding area.”*/
 .videoWrapper iframe {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
+}
+
+.dots{
+  /*border:none;
+  border-top:10px dotted #f00;
+  color:#fff;
+  background-color:#fff;
+  height:1px;
+  width:50%;*/
+  border-top: 1px dotted #8c8b8b;
+  border-bottom: 1px dotted #fff;
+}
+
+.zags{
+  height: 6px;
+    background: url(http://ibrahimjabbari.com/english/images/hr-12.png) repeat-x 0 0;
+      border: 0;
+}
+
+/*hr.heart {
+  border-top: 4px double #8c8b8b;
+  text-align: center;
+}
+hr.heart:after {
+  content: '\002665';
+  display: inline-block;
+  position: relative;
+  top: -15px;
+  padding: 0 10px;
+  background: #f0f0f0;
+  color: #8c8b8b;
+  font-size: 18px;
+}*/
+
+h1 {
+  font-family: Arial;
+  position: relative;
+  overflow: hidden;
+  color: white;
+  text-align: center;
+}
+
+
+h1:after {
+  display: inline-block;
+  content: "";
+  height: 4px;
+  background: green;
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  margin-top: -2px;
+  margin-left: 10px;
+}
+
+h2 {
+  color: white;
+  text-align: center;
+}
+
+p {
+  color: white;
+}
+
+/*To add a border in line with text*/
+/*hr {
+  border: 0; 
+  margin-top: 0; 
+  margin-bottom: 0; 
+}*/
+
+
+
+/*BoF*/
+
+.t_full-width {
+    width: 100%!important;
+}
+.o_header-separator__title {
+    padding: 0 10px;
+}
+
+.o_header-separator__col {
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+}
+
+.c_hr-image {
+    height: 20px;
+    background-repeat: repeat-x;
+    background-size: auto 100%;
+    background-position-x: 100%;
+}
+
+element.style {
+    background-position-x: 4.56%;
+}
+
+hr.c_hr-image {
+    border: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.c_hr-image--wavy-medium-light {
+    background-image: url(//cdn.businessoffashion.com/uploads/voices/hr/line-wavy-medium-white.png);
+}
+.c_hr-image--dots-light {
+    background-image: url(//cdn.businessoffashion.com/uploads/voices/hr/line-dots-white.png);
+}
+.c_hr-image {
+    height: 20px;
+    background-repeat: repeat-x;
+    background-size: auto 100%;
+    background-position-x: 100%;
 }

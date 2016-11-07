@@ -1,0 +1,673 @@
+<div class="sticky-container force-static-xs force-static-sm relative" ng-style="containerStyle" id="mainNav" offset="0" stackable="false" fixed-height="47" style="height: 47px; width: 100%;"><div class="sticky sticky-fixed" ng-show="isVisible" ng-style="blockStyle" ng-class="blockClass" ng-transclude="" style="position: fixed; z-index: 999; width: 1416px; top: 0px; left: 0px;">
+    <nav class="navbar navbar-default bof-main-nav" copy-token="">
+        <div class="container">
+
+            <!-- mobile -->
+            <div class="navbar-header visible-xs-block visible-sm-block">
+                <a href="/" class="nav-icon-link navbar-center">
+                    <img class="full-width" src="//cdn.businessoffashion.com/site/bof_logo-1.png" alt="The Business Of Fashion logo">
+                </a>
+
+                <button navigation-opener="" type="button" class="navbar-toggle collapsed nav-icon-link" aria-expanded="false" aria-controls="navbar">
+                    <svg aria-label="Toggle navigation" class="nav-icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/assets-access-layer/images/icons.svg#navbars"></use></svg>
+                </button>
+
+                <a title="Login" class="pull-right border-left border-left nav-icon-link sans-serif" ng-class="{'active': isLoggedIn, 'nav-icon-link--premium': premium }" ng-click="handleClick($event)" fast-click="" stop-propagation="">    
+    <span ng-class="{'premium': premium, 'student': isStudent }" copy-token="">
+        <span class="bold-font"></span>
+        <!----><span ng-if="!userInitials"><i class="icon-profile"></i></span><!---->
+    </span>
+    <!---->
+</a>
+                <a fast-click="" href="javascript:void(0)" title="Search" class="pull-right nav-icon-link" ng-click="openModal()"><span ng-transclude=""></span><i class="icon-search"></i></a>
+            </div>
+
+            <!-- navigation here -->
+            <div ng-style="customStyle" ng-class="{open: open}" ng-swipe-left="handleSwipeLeft()" ng-swipe-right="handleSwipeRight()" ng-transclude="" name="main" class="slide-right navbar-collapse collapse" style="height: 357px;">
+                                <div class="nav navbar-nav navbar-logo navbar-left hidden-xs hidden-sm">
+                    <div class="align-center-y full-height">
+                        <a href="/">
+                            <img src="//cdn.businessoffashion.com/site/bof_logo-1.png" width="70" alt="The Business Of Fashion logo">
+                        </a>
+                    </div>
+                </div>
+
+                <ul class="nav navbar-nav">
+
+                    <li class="dropdown">
+                        <a href="/news/" class="dropdown-toggle" aria-expanded="false">
+                            Latest
+                        </a>
+                    </li>
+
+                    <li group-dropdown="" class="dropdown">
+                        <a href="/daily-digest" group-dropdown-toggle="" disable-mobile="true" class="dropdown-toggle" aria-expanded="false">Daily Digest</a>
+                        <div group-dropdown-menu="" class="dropdown-menu background-default">
+                            <div class="container">
+                                                                <a ng-class="{active: active}" ng-lazy-mouseover="inject($event)" ng-click="link($event)" ng-transclude="" class="hide active" menu-injector="" container="digest" categories="digest" types="digest" view="items-hlist" href="/daily-digest" active="true"></a>
+                                <div class="hidden-sm row compatibility" id="digest">
+
+        <!---->
+
+        <!----><div ng-if="!external">
+
+        <!-- inject type -->
+        <div ng-switch="" on="view">
+
+            <!-- image + text -->
+            <!---->
+
+            <!-- image + text + locked -->
+            <!---->
+
+            <!-- image + text + video -->
+            <!---->
+
+            <!-- image + overlay text -->
+            <!---->
+
+            <!-- image + overlay text + profile -->
+            <!---->
+
+            <!-- rankings list -->
+            <!---->
+
+            <!-- item list -->
+            <!---->
+
+            <!-- list rendering -->
+            <!----><div ng-switch-when="items-hlist" class="">
+                <div class="columns fifths clearfix">
+                    <!----><a href="/daily-digest/2016/11/07#not-a-far-fetched-idea-how-one-man-built-a-1-5bn-fashion-business" class="column bof-nav-dd-item" ng-repeat="item in items | limitTo:5">
+                        <span class="list-number pull-left reset-line-height no-margin">1</span>
+                        <span class="block no-margin inherit-font medium-font bold-font">Not a Far-Fetched Idea: How One Man Built a $1.5bn Fashion Business</span>
+
+                        <em class="block offset-top-tiny small-font color-gray-darker">BBC</em>
+                    </a><!----><a href="/daily-digest/2016/11/07#beware-iphone-users-fake-retail-apps-are-surging-before-holidays" class="column bof-nav-dd-item" ng-repeat="item in items | limitTo:5">
+                        <span class="list-number pull-left reset-line-height no-margin">2</span>
+                        <span class="block no-margin inherit-font medium-font bold-font">Beware, iPhone Users: Fake Retail Apps Are Surging Before Holidays</span>
+
+                        <em class="block offset-top-tiny small-font color-gray-darker">The New York Times</em>
+                    </a><!----><a href="/daily-digest/2016/11/07#delhi-pollution-with-masks-necessity-becomes-mother-of-fashion" class="column bof-nav-dd-item" ng-repeat="item in items | limitTo:5">
+                        <span class="list-number pull-left reset-line-height no-margin">3</span>
+                        <span class="block no-margin inherit-font medium-font bold-font">Delhi Pollution: With Masks, Necessity Becomes Mother of Fashion</span>
+
+                        <em class="block offset-top-tiny small-font color-gray-darker">The Economic Times</em>
+                    </a><!----><a href="/daily-digest/2016/11/07#john-lewis-blues-could-regeneration-destroy-leeds-much-loved-arts-quarter" class="column bof-nav-dd-item" ng-repeat="item in items | limitTo:5">
+                        <span class="list-number pull-left reset-line-height no-margin">4</span>
+                        <span class="block no-margin inherit-font medium-font bold-font"> John Lewis Blues: Could Regeneration Destroy Leeds' Much-Loved Arts quarter?</span>
+
+                        <em class="block offset-top-tiny small-font color-gray-darker">The Guardian</em>
+                    </a><!----><a href="/daily-digest/2016/11/07#why-hong-kong-is-so-important-for-alessandro-dellacqua" class="column bof-nav-dd-item" ng-repeat="item in items | limitTo:5">
+                        <span class="list-number pull-left reset-line-height no-margin">5</span>
+                        <span class="block no-margin inherit-font medium-font bold-font">Why Hong Kong Is So Important for Alessandro Dell’Acqua</span>
+
+                        <em class="block offset-top-tiny small-font color-gray-darker">South China Morning Post</em>
+                    </a><!---->
+                </div>
+            </div><!---->
+
+            <!-- card list -->
+            <!---->
+
+            <!-- featured shows -->
+            <!---->
+
+            <!-- default -->
+            <!---->
+
+        </div>
+    </div><!---->
+</div>
+                                <a href="/daily-digest" class="bof-nav-more-red hover-no-underline">View Daily Digest&nbsp;<i class="icon-small-arrow"></i></a>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li group-dropdown="" class="dropdown">
+                        <a href="/articles/" group-dropdown-toggle="" class="dropdown-toggle" aria-expanded="false">News &amp; Analysis</a>
+                        <div group-dropdown-menu="" class="dropdown-menu background-default">
+                            <div class="container">
+                                <div class="row equal-columns">
+                                    <div class="col-md-4 col-sm-24 border-right-lg border-right-md equal-columns-col">
+                                        <ul class="subnav">
+                                            <li><a ng-class="{active: active}" ng-lazy-mouseover="inject($event)" ng-click="link($event)" ng-transclude="" menu-injector="" container="news" categories="syndicated" view="image-text" href="/articles/latest-news" active="true" class="active"><span>Latest News</span></a></li>
+                                            <li><a ng-class="{active: active}" ng-lazy-mouseover="inject($event)" ng-click="link($event)" ng-transclude="" menu-injector="" container="news" categories="intelligence" view="image-text" href="/articles/intelligence"><span>Intelligence</span></a></li>
+                                            <li><a ng-class="{active: active}" ng-lazy-mouseover="inject($event)" ng-click="link($event)" ng-transclude="" menu-injector="" container="news" categories="global-currents" view="image-text" href="/articles/global-currents"><span>Global Currents</span></a></li>
+                                            <li><a ng-class="{active: active}" ng-lazy-mouseover="inject($event)" ng-click="link($event)" ng-transclude="" menu-injector="" container="news" categories="fashion-tech" view="image-text" href="/articles/fashion-tech"><span>Fashion-Tech</span></a></li>
+                                            <li><a ng-class="{active: active}" ng-lazy-mouseover="inject($event)" ng-click="link($event)" ng-transclude="" menu-injector="" container="news" categories="people" view="image-text" href="/articles/people"><span>People</span></a></li>
+                                            <li><a ng-class="{active: active}" ng-lazy-mouseover="inject($event)" ng-click="link($event)" ng-transclude="" menu-injector="" container="news" categories="education" view="image-text" href="/articles/education"><span>Education</span></a></li>
+                                            <li><a ng-class="{active: active}" ng-lazy-mouseover="inject($event)" ng-click="link($event)" ng-transclude="" menu-injector="" container="news" categories="opinion" view="image-text" href="/articles/opinion"><span>Opinion</span></a></li>
+                                                                                        <li><a ng-class="{active: active}" ng-lazy-mouseover="inject($event)" ng-click="link($event)" ng-transclude="" menu-injector="" container="news" categories="video" view="image-text-video" href="/videos/"><span>Video</span></a></li>
+                                        </ul>
+                                        <a href="/articles/" class="bof-nav-more-red">View all articles&nbsp;<i class="icon-small-arrow"></i></a>
+                                    </div>
+                                    <div class="col-sm-20 hidden-xs hidden-sm subnav-content equal-columns-col">
+                                        <div class="row compatibility" id="news">
+
+        <!---->
+
+        <!----><div ng-if="!external">
+
+        <!-- inject type -->
+        <div ng-switch="" on="view">
+
+            <!-- image + text -->
+            <!----><div ng-switch-when="image-text" class="">
+                <!----><div class="col-xs-6 animate-fade" ng-repeat="item in items | limitTo:4">
+                    <a class="inherit-color medium-size-font medium-font" href="/articles/news-analysis/richemont-ceo-cfo-to-retire-next-year-as-profit-plunges">
+                        <img class="img-responsive init loaded" src="https://img.businessoffashion.com/250/140/cropcustomoffset_50_50/site/uploads/2014/11/2013-05-21-Richemont.jpg" responsive-src="https://img.businessoffashion.com/250/140/cropcustomoffset_50_50/site/uploads/2014/11/2013-05-21-Richemont.jpg" alt="">
+                        <span>Richemont CEO, CFO to Retire As Profit Plunges</span>
+                    </a>
+                </div><!----><div class="col-xs-6 animate-fade" ng-repeat="item in items | limitTo:4">
+                    <a class="inherit-color medium-size-font medium-font" href="/articles/news-analysis/american-apparel-said-to-be-preparing-second-bankruptcy-filing">
+                        <img class="img-responsive init loaded" src="https://img.businessoffashion.com/250/140/cropcustomoffset_50_50/site/uploads/2016/08/12273699_843500652426964_794138014956715953_o.jpg" responsive-src="https://img.businessoffashion.com/250/140/cropcustomoffset_50_50/site/uploads/2016/08/12273699_843500652426964_794138014956715953_o.jpg" alt="">
+                        <span>Report: American Apparel Preparing Second Bankruptcy Filing</span>
+                    </a>
+                </div><!----><div class="col-xs-6 animate-fade" ng-repeat="item in items | limitTo:4">
+                    <a class="inherit-color medium-size-font medium-font" href="/articles/news-analysis/empty-space-haunts-fifth-avenue-as-retailers-balk-at-rent-hikes">
+                        <img class="img-responsive init loaded" src="https://img.businessoffashion.com/250/140/cropcustomoffset_50_50/site/uploads/2016/10/shutterstock_116778754.jpg" responsive-src="https://img.businessoffashion.com/250/140/cropcustomoffset_50_50/site/uploads/2016/10/shutterstock_116778754.jpg" alt="">
+                        <span>Empty Space Haunts Fifth Avenue as Retailers Balk at Rent Hikes</span>
+                    </a>
+                </div><!----><div class="col-xs-6 animate-fade" ng-repeat="item in items | limitTo:4">
+                    <a class="inherit-color medium-size-font medium-font" href="/articles/news-analysis/burberry-shares-gain-after-report-coach-is-considering-merger">
+                        <img class="img-responsive init loaded" src="https://img.businessoffashion.com/250/140/cropcustomoffset_50_50/site/uploads/2015/11/a2c891296023a790b0a4ab7e60535f31a4f1710f.jpeg" responsive-src="https://img.businessoffashion.com/250/140/cropcustomoffset_50_50/site/uploads/2015/11/a2c891296023a790b0a4ab7e60535f31a4f1710f.jpeg" alt="">
+                        <span>Report: Burberry and Coach to Merge?</span>
+                    </a>
+                </div><!---->
+                <!-- link to original href -->
+                <div class="col-xs-24 offset-top hidden-md hidden-lg">
+                    <a href="#" ng-click="link()" class="bof-nav-more-gray">Go to Section →</a>
+                </div>
+            </div><!---->
+
+            <!-- image + text + locked -->
+            <!---->
+
+            <!-- image + text + video -->
+            <!---->
+
+            <!-- image + overlay text -->
+            <!---->
+
+            <!-- image + overlay text + profile -->
+            <!---->
+
+            <!-- rankings list -->
+            <!---->
+
+            <!-- item list -->
+            <!---->
+
+            <!-- list rendering -->
+            <!---->
+
+            <!-- card list -->
+            <!---->
+
+            <!-- featured shows -->
+            <!---->
+
+            <!-- default -->
+            <!---->
+
+        </div>
+    </div><!---->
+</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li group-dropdown="" class="dropdown active">
+                        <a href="/community/voices/" group-dropdown-toggle="" disable-mobile="true" class="dropdown-toggle" aria-expanded="false">Voices</a>
+                        <div group-dropdown-menu="" class="dropdown-menu background-default">
+                            <div class="container">
+                                <div class="row equal-columns">
+                                    <div class="col-md-4 col-sm-24 border-right-lg border-right-md equal-columns-col">
+                                        <ul class="subnav">
+                                            <li><a ng-class="{active: active}" ng-lazy-mouseover="inject($event)" ng-click="link($event)" ng-transclude="" menu-injector="" container="discussion" categories="discussion" view="image-text" href="/community/voices/" active="true" class="active"><span>Discussions</span></a></li>
+                                            <li><a ng-class="{active: active}" ng-lazy-mouseover="inject($event)" ng-click="link($event)" ng-transclude="" menu-injector="" container="discussion" types="post" categories="opinion" has-composite-parents="0" view="image-text" href="/articles/opinion"><span>Opinions</span></a></li>
+
+                                            <li><a href="/events/voices">Events</a></li>
+
+                                        </ul>
+                                        <a href="/community/voices/" class="bof-nav-more-red">Visit BoF Voices&nbsp;<i class="icon-small-arrow"></i></a>
+                                    </div>
+                                    <div class="col-sm-20 hidden-xs hidden-sm subnav-content equal-columns-col">
+                                        <div class="row compatibility" id="discussion">
+
+        <!---->
+
+        <!----><div ng-if="!external">
+
+        <!-- inject type -->
+        <div ng-switch="" on="view">
+
+            <!-- image + text -->
+            <!----><div ng-switch-when="image-text" class="">
+                <!----><div class="col-xs-6 animate-fade" ng-repeat="item in items | limitTo:4">
+                    <a class="inherit-color medium-size-font medium-font" href="/community/voices/discussions/what-does-the-fourth-industrial-revolution-mean-for-fashion">
+                        <img class="img-responsive init loaded" src="https://img.businessoffashion.com/250/140/cropcustomoffset_50_50/site/uploads/2016/08/1.jpg" responsive-src="https://img.businessoffashion.com/250/140/cropcustomoffset_50_50/site/uploads/2016/08/1.jpg" alt="">
+                        <span>What does the fourth industrial revolution mean for fashion?</span>
+                    </a>
+                </div><!----><div class="col-xs-6 animate-fade" ng-repeat="item in items | limitTo:4">
+                    <a class="inherit-color medium-size-font medium-font" href="/community/voices/discussions/fashion-prepare-for-todays-global-instability-economic-crisis-social-unrest">
+                        <img class="img-responsive init loaded" src="https://img.businessoffashion.com/250/140/cropcustomoffset_50_50/site/uploads/2016/07/shutterstock_456771082.jpg" responsive-src="https://img.businessoffashion.com/250/140/cropcustomoffset_50_50/site/uploads/2016/07/shutterstock_456771082.jpg" alt="">
+                        <span>How should fashion prepare for global instability?</span>
+                    </a>
+                </div><!----><div class="col-xs-6 animate-fade" ng-repeat="item in items | limitTo:4">
+                    <a class="inherit-color medium-size-font medium-font" href="/community/voices/discussions/what-will-the-store-of-the-future-look-like">
+                        <img class="img-responsive init loaded" src="https://img.businessoffashion.com/250/140/cropcustomoffset_50_50/site/uploads/2016/07/Background_1.jpg" responsive-src="https://img.businessoffashion.com/250/140/cropcustomoffset_50_50/site/uploads/2016/07/Background_1.jpg" alt="">
+                        <span>What will the store of the future look like?</span>
+                    </a>
+                </div><!----><div class="col-xs-6 animate-fade" ng-repeat="item in items | limitTo:4">
+                    <a class="inherit-color medium-size-font medium-font" href="/community/voices/discussions/how-can-brands-from-distant-markets-break-into-the-global-marketplace">
+                        <img class="img-responsive init loaded" src="https://img.businessoffashion.com/250/140/cropcustomoffset_50_50/site/uploads/2016/04/Zimmermann-Swim-Spring-2016-Lookbook04.jpg" responsive-src="https://img.businessoffashion.com/250/140/cropcustomoffset_50_50/site/uploads/2016/04/Zimmermann-Swim-Spring-2016-Lookbook04.jpg" alt="">
+                        <span>How can brands from distant markets break into the global marketplace?</span>
+                    </a>
+                </div><!---->
+                <!-- link to original href -->
+                <div class="col-xs-24 offset-top hidden-md hidden-lg">
+                    <a href="#" ng-click="link()" class="bof-nav-more-gray">Go to Section →</a>
+                </div>
+            </div><!---->
+
+            <!-- image + text + locked -->
+            <!---->
+
+            <!-- image + text + video -->
+            <!---->
+
+            <!-- image + overlay text -->
+            <!---->
+
+            <!-- image + overlay text + profile -->
+            <!---->
+
+            <!-- rankings list -->
+            <!---->
+
+            <!-- item list -->
+            <!---->
+
+            <!-- list rendering -->
+            <!---->
+
+            <!-- card list -->
+            <!---->
+
+            <!-- featured shows -->
+            <!---->
+
+            <!-- default -->
+            <!---->
+
+        </div>
+    </div><!---->
+</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li group-dropdown="" class="dropdown">
+                        <a href="/careers" group-dropdown-toggle="" disable-mobile="true" class="dropdown-toggle" aria-expanded="false">Careers</a>
+                        <div group-dropdown-menu="" class="dropdown-menu background-default">
+                            <div class="container">
+                                <div class="row equal-columns">
+                                    <div class="col-md-4 col-sm-24 border-right-lg border-right-md equal-columns-col">
+                                        <ul class="subnav">
+                                            <li><a ng-class="{active: active}" ng-lazy-mouseover="inject($event)" ng-click="link($event)" ng-transclude="" menu-injector="" container="careers" active="true" categories="companies" view="image-overlay" href="/companies/search" class="active"><span>Companies</span></a></li>
+                                            <li><a ng-class="{active: active}" ng-lazy-mouseover="inject($event)" ng-click="link($event)" ng-transclude="" menu-injector="" container="careers" categories="functions" view="items-list" href="/careers/jobs/search"><span>Jobs</span></a></li>
+                                            <li><a ng-class="{active: active}" ng-lazy-mouseover="inject($event)" ng-click="link($event)" ng-transclude="" menu-injector="" container="careers" categories="content" view="image-text" href="/articles/careers/"><span>Content</span></a></li>
+                                        </ul>
+                                        <a href="/careers" class="bof-nav-more-red">Visit BoF Careers&nbsp;<i class="icon-small-arrow"></i></a>
+                                    </div>
+                                    <div class="col-sm-20 hidden-xs hidden-sm subnav-content equal-columns-col">
+                                        <div class="row compatibility" id="careers">
+
+        <!---->
+
+        <!----><div ng-if="!external">
+
+        <!-- inject type -->
+        <div ng-switch="" on="view">
+
+            <!-- image + text -->
+            <!---->
+
+            <!-- image + text + locked -->
+            <!---->
+
+            <!-- image + text + video -->
+            <!---->
+
+            <!-- image + overlay text -->
+            <!----><div ng-switch-when="image-overlay" class="">
+
+                <!----><div class="col-xs-6 animate-fade" ng-repeat="item in items | limitTo:4">
+                    <a class="bof-nav-thumb-overlay hover-underline-heading relative" href="http://www.businessoffashion.com/community/companies/anya-hindmarch-ltd">
+                        <div class="bof-nav-thumb-block text-center">
+                            <span class="offset-bottom-half hover-title-underline bottom sans-serif medium-size-font bold-font text-uppercase" ng-show="item.job_count">
+                            <ng-pluralize count="item.job_count" when="{1: 'View 1 job', 'other': 'View {} Jobs'}">View 3 Jobs</ng-pluralize>
+                            </span>
+                            <span class="large-font offset-top top medium-font">Anya Hindmarch <br>
+                               <span class="smaller-font text-uppercase sans-serif">London, United Kingdom</span>
+                            </span>
+                        </div>
+                        <img src="https://img.businessoffashion.com/250/140/cropcustomoffset_50_50/uploads/media/bof_company_logo/0001/02/fdf318e491e7bfdc77ca1e7680742add8d688aae.jpeg" responsive-src="https://img.businessoffashion.com/250/140/cropcustomoffset_50_50/uploads/media/bof_company_logo/0001/02/fdf318e491e7bfdc77ca1e7680742add8d688aae.jpeg" alt="" class="bof-nav-thumb-overlay-img img-responsive init loaded">
+                    </a>
+                </div><!----><div class="col-xs-6 animate-fade" ng-repeat="item in items | limitTo:4">
+                    <a class="bof-nav-thumb-overlay hover-underline-heading relative" href="http://www.businessoffashion.com/community/companies/beulah-london">
+                        <div class="bof-nav-thumb-block text-center">
+                            <span class="offset-bottom-half hover-title-underline bottom sans-serif medium-size-font bold-font text-uppercase" ng-show="item.job_count">
+                            <ng-pluralize count="item.job_count" when="{1: 'View 1 job', 'other': 'View {} Jobs'}">View 3 Jobs</ng-pluralize>
+                            </span>
+                            <span class="large-font offset-top top medium-font">Beulah London <br>
+                               <span class="smaller-font text-uppercase sans-serif">London, United Kingdom</span>
+                            </span>
+                        </div>
+                        <img src="https://img.businessoffashion.com/250/140/cropcustomoffset_50_50/uploads/media/slider_image/0002/19/189dfb664ff7083565618590bcbddd3bad0d7fd1.jpeg" responsive-src="https://img.businessoffashion.com/250/140/cropcustomoffset_50_50/uploads/media/slider_image/0002/19/189dfb664ff7083565618590bcbddd3bad0d7fd1.jpeg" alt="" class="bof-nav-thumb-overlay-img img-responsive init loaded">
+                    </a>
+                </div><!----><div class="col-xs-6 animate-fade" ng-repeat="item in items | limitTo:4">
+                    <a class="bof-nav-thumb-overlay hover-underline-heading relative" href="http://www.businessoffashion.com/community/companies/boutique-1">
+                        <div class="bof-nav-thumb-block text-center">
+                            <span class="offset-bottom-half hover-title-underline bottom sans-serif medium-size-font bold-font text-uppercase" ng-show="item.job_count">
+                            <ng-pluralize count="item.job_count" when="{1: 'View 1 job', 'other': 'View {} Jobs'}">View 6 Jobs</ng-pluralize>
+                            </span>
+                            <span class="large-font offset-top top medium-font">Boutique 1 <br>
+                               <span class="smaller-font text-uppercase sans-serif">Dubai, United Arab Emirates</span>
+                            </span>
+                        </div>
+                        <img src="https://img.businessoffashion.com/250/140/cropcustomoffset_50_50/uploads/media/slider_image/0001/56/96a0007cee5ac0c55b9295de28eea24106f76cd6.jpeg" responsive-src="https://img.businessoffashion.com/250/140/cropcustomoffset_50_50/uploads/media/slider_image/0001/56/96a0007cee5ac0c55b9295de28eea24106f76cd6.jpeg" alt="" class="bof-nav-thumb-overlay-img img-responsive init loaded">
+                    </a>
+                </div><!----><div class="col-xs-6 animate-fade" ng-repeat="item in items | limitTo:4">
+                    <a class="bof-nav-thumb-overlay hover-underline-heading relative" href="http://www.businessoffashion.com/community/companies/meli-melo">
+                        <div class="bof-nav-thumb-block text-center">
+                            <span class="offset-bottom-half hover-title-underline bottom sans-serif medium-size-font bold-font text-uppercase" ng-show="item.job_count">
+                            <ng-pluralize count="item.job_count" when="{1: 'View 1 job', 'other': 'View {} Jobs'}">View 1 job</ng-pluralize>
+                            </span>
+                            <span class="large-font offset-top top medium-font">Meli Melo <br>
+                               <span class="smaller-font text-uppercase sans-serif">London, United Kingdom</span>
+                            </span>
+                        </div>
+                        <img src="https://img.businessoffashion.com/250/140/cropcustomoffset_50_50/uploads/media/slider_image/0001/43/731012da935dbb8797e97f06d08c5e06b56f70af.jpeg" responsive-src="https://img.businessoffashion.com/250/140/cropcustomoffset_50_50/uploads/media/slider_image/0001/43/731012da935dbb8797e97f06d08c5e06b56f70af.jpeg" alt="" class="bof-nav-thumb-overlay-img img-responsive init loaded">
+                    </a>
+                </div><!---->
+                <!-- link to original href -->
+                <div class="col-xs-24 offset-top hidden-md hidden-lg">
+                    <a href="#" ng-click="link()" class="bof-nav-more-gray">Go to Section →</a>
+                </div>
+            </div><!---->
+
+            <!-- image + overlay text + profile -->
+            <!---->
+
+            <!-- rankings list -->
+            <!---->
+
+            <!-- item list -->
+            <!---->
+
+            <!-- list rendering -->
+            <!---->
+
+            <!-- card list -->
+            <!---->
+
+            <!-- featured shows -->
+            <!---->
+
+            <!-- default -->
+            <!---->
+
+        </div>
+    </div><!---->
+</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li group-dropdown="" class="dropdown">
+                        <a href="/community/bof500/2016" group-dropdown-toggle="" disable-mobile="true" class="dropdown-toggle" aria-expanded="false">BOF 500<span class="badge-new"></span></a>
+
+                        <div group-dropdown-menu="" class="dropdown-menu background-default">
+                            <div class="container">
+                                <div class="row equal-columns">
+                                    <div class="col-md-4 col-sm-24 border-right-lg border-right-md equal-columns-col">
+                                        <ul class="subnav">
+                                            <li><a ng-class="{active: active}" ng-lazy-mouseover="inject($event)" ng-click="link($event)" ng-transclude="" menu-injector="" container="profiles" categories="bof500" view="image-overlay-people" class="no-uppercase active" href="/community/bof500/2016" active="true" collection-id="7"><span>BoF 500 MEMBERS</span></a></li>
+                                            <li><a ng-class="{active: active}" ng-lazy-mouseover="inject($event)" ng-click="link($event)" ng-transclude="" menu-injector="" external="/templates/Framework/filter_and_search_navigation/" container="profiles" categories="" view="" href="/community/bof500/search"><span>Filters &amp; Search</span></a></li>
+                                        </ul>
+                                        <a href="/community/bof500/2016" class="bof-nav-more-red">View BoF 500&nbsp;<i class="icon-small-arrow"></i></a>
+                                    </div>
+                                    <div class="col-sm-20 hidden-xs hidden-sm subnav-content equal-columns-col">
+                                        <div class="row compatibility" id="profiles">
+
+        <!---->
+
+        <!----><div ng-if="!external">
+
+        <!-- inject type -->
+        <div ng-switch="" on="view">
+
+            <!-- image + text -->
+            <!---->
+
+            <!-- image + text + locked -->
+            <!---->
+
+            <!-- image + text + video -->
+            <!---->
+
+            <!-- image + overlay text -->
+            <!---->
+
+            <!-- image + overlay text + profile -->
+            <!----><div ng-switch-when="image-overlay-people" class="">
+
+                <!----><div class="col-xs-6 animate-fade" ng-repeat="item in items | limitTo:4">
+                    <a class="bof-nav-thumb-overlay relative" href="/community/people/ian-moir">
+                        <div class="bof-nav-thumb-block text-left">
+                           <span class="offset-bottom-half bottom serif medium-font large-font">Ian Moir <br>
+                               <span class="text-uppercase smaller-font sans-serif small-line-height"></span>
+                           </span>
+                        </div>
+                        <img src="https://img.businessoffashion.com/250/140/cropcustomoffset_50_50/profiles/asset/1787/201a9cf41e14a57020508669e65db2b9eee6662c.jpeg" responsive-src="https://img.businessoffashion.com/250/140/cropcustomoffset_50_50/profiles/asset/1787/201a9cf41e14a57020508669e65db2b9eee6662c.jpeg" class="bof-nav-thumb-overlay-img img-responsive init loaded">
+                    </a>
+                </div><!----><div class="col-xs-6 animate-fade" ng-repeat="item in items | limitTo:4">
+                    <a class="bof-nav-thumb-overlay relative" href="/community/people/jim-gold">
+                        <div class="bof-nav-thumb-block text-left">
+                           <span class="offset-bottom-half bottom serif medium-font large-font">Jim Gold <br>
+                               <span class="text-uppercase smaller-font sans-serif small-line-height"></span>
+                           </span>
+                        </div>
+                        <img src="https://img.businessoffashion.com/250/140/cropcustomoffset_50_50/profiles/asset/231/517acf7b54830b3a98b58107ed051a7bda00d3e8.png" responsive-src="https://img.businessoffashion.com/250/140/cropcustomoffset_50_50/profiles/asset/231/517acf7b54830b3a98b58107ed051a7bda00d3e8.png" class="bof-nav-thumb-overlay-img img-responsive init loaded">
+                    </a>
+                </div><!----><div class="col-xs-6 animate-fade" ng-repeat="item in items | limitTo:4">
+                    <a class="bof-nav-thumb-overlay relative" href="/community/people/tony-salame">
+                        <div class="bof-nav-thumb-block text-left">
+                           <span class="offset-bottom-half bottom serif medium-font large-font">Tony Salamé <br>
+                               <span class="text-uppercase smaller-font sans-serif small-line-height"></span>
+                           </span>
+                        </div>
+                        <img src="https://img.businessoffashion.com/250/140/cropcustomoffset_50_50/profiles/asset/481/97bcc43dc5260366b99ba47b229f96158cfa016b.jpeg" responsive-src="https://img.businessoffashion.com/250/140/cropcustomoffset_50_50/profiles/asset/481/97bcc43dc5260366b99ba47b229f96158cfa016b.jpeg" class="bof-nav-thumb-overlay-img img-responsive init loaded">
+                    </a>
+                </div><!----><div class="col-xs-6 animate-fade" ng-repeat="item in items | limitTo:4">
+                    <a class="bof-nav-thumb-overlay relative" href="/community/people/dr-amanda-parkes">
+                        <div class="bof-nav-thumb-block text-left">
+                           <span class="offset-bottom-half bottom serif medium-font large-font">Dr. Amanda Parkes <br>
+                               <span class="text-uppercase smaller-font sans-serif small-line-height"></span>
+                           </span>
+                        </div>
+                        <img src="https://img.businessoffashion.com/250/140/cropcustomoffset_50_50/profiles/asset/1763/9f34f9f505d15bb359404aebb28922422433ee5d.jpeg" responsive-src="https://img.businessoffashion.com/250/140/cropcustomoffset_50_50/profiles/asset/1763/9f34f9f505d15bb359404aebb28922422433ee5d.jpeg" class="bof-nav-thumb-overlay-img img-responsive init loaded">
+                    </a>
+                </div><!---->
+                <!-- link to original href -->
+                <div class="col-xs-24 offset-top hidden-md hidden-lg">
+                    <a href="#" ng-click="link()" class="bof-nav-more-gray">Go to Section →</a>
+                </div>
+            </div><!---->
+
+            <!-- rankings list -->
+            <!---->
+
+            <!-- item list -->
+            <!---->
+
+            <!-- list rendering -->
+            <!---->
+
+            <!-- card list -->
+            <!---->
+
+            <!-- featured shows -->
+            <!---->
+
+            <!-- default -->
+            <!---->
+
+        </div>
+    </div><!---->
+</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li group-dropdown="" class="dropdown">
+                        <a href="/education/" group-dropdown-toggle="" disable-mobile="true" class="dropdown-toggle" aria-expanded="false">Education</a>
+                        <div group-dropdown-menu="" class="dropdown-menu background-default">
+                            <div class="container">
+                                <div class="row equal-columns">
+                                    <div class="col-md-4 col-sm-24 border-right-lg border-right-md equal-columns-col">
+                                        <ul class="subnav">
+                                            <li><a ng-class="{active: active}" ng-lazy-mouseover="inject($event)" ng-click="link($event)" ng-transclude="" menu-injector="" container="education" categories="courses" view="" active="true" href="/education/" external="/templates/Framework/courses_navigation/" class="active"><span>Education Courses</span></a></li>
+                                            <li><a ng-class="{active: active}" ng-lazy-mouseover="inject($event)" ng-click="link($event)" ng-transclude="" menu-injector="" container="education" categories="rankings" view="rankings-list" href="/education/rankings/2016"><span>School ranking 2016</span></a></li>
+                                            <li><a ng-class="{active: active}" ng-lazy-mouseover="inject($event)" ng-click="link($event)" ng-transclude="" menu-injector="" container="education" categories="the-state-of-education" types="post,composite" view="image-text-locked" href="/articles/the-state-of-education"><span>The State of Education</span></a></li>
+                                            <!-- <li><a menu-injector container="education" categories="school" view="image-overlay" href="#schools">Schools</a></li> -->
+                                            <li><a ng-class="{active: active}" ng-lazy-mouseover="inject($event)" ng-click="link($event)" ng-transclude="" menu-injector="" container="education" categories="term" view="card-list" href="/education/fashion-az"><span>Fashion A-Z</span></a></li>
+                                        </ul>
+                                        <a href="/education/" class="bof-nav-more-red">Visit BoF Education&nbsp;<i class="icon-small-arrow"></i></a>
+                                    </div>
+                                    <div class="col-sm-20 hidden-xs hidden-sm subnav-content equal-columns-col">
+                                        <div class="row compatibility" id="education">
+
+        <!----><div ng-include="external" class=""><div class="nav-courses">
+    <div class="row offset-top offset-bottom-medium">
+    <div class="col-xs-24">
+        <div class="row">
+            <div class="col-xs-24">
+                <div class="spacer">
+                    <div class="spacer-title h6"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+                        <div class="col-xs-24 col-md-8 col-sm-8 offset-bottom-xs">
+                <a class="thumbnail-mid-align block relative text-center hover-underline-heading" href="/education/courses/fashion-history-for-today">
+                                            <img class="img-responsive img-fill offset-bottom-small init loaded" src="https://img.businessoffashion.com/300/168/cropcustomoffset_50_50/course/course/fashion-history-for-today/9111470904865.original.jpg" alt="Fashion History For Today">
+                                        <div class="thumbnail-mid-align-content">
+                        <div class="row">
+                            <h3 class="no-margin padded-horizontal thumbnail-heading medium-font serif t_text-size-xs-8">
+                                Fashion History For Today
+                            </h3>
+                                                    </div>
+                    </div>
+                </a>
+            </div>
+                        <div class="col-xs-24 col-md-8 col-sm-8 offset-bottom-xs">
+                <a class="thumbnail-mid-align block relative text-center hover-underline-heading" href="/education/courses/the-art-and-science-of-buying-and-merchandising">
+                                            <img class="img-responsive img-fill offset-bottom-small init loaded" src="https://img.businessoffashion.com/300/168/cropcustomoffset_50_50/course/course/the-art-and-science-of-buying-and-merchandising/3921470414286.original.jpg" alt="The Art and Science of Buying and Merchandising">
+                                        <div class="thumbnail-mid-align-content">
+                        <div class="row">
+                            <h3 class="no-margin padded-horizontal thumbnail-heading medium-font serif t_text-size-xs-8">
+                                The Art and Science of Buying and Merchandising
+                            </h3>
+                                                    </div>
+                    </div>
+                </a>
+            </div>
+            
+                        <div class="col-xs-24 col-md-8 col-sm-8 offset-bottom-xs">
+                <a class="thumbnail-mid-align block relative text-center hover-underline-heading" href="/education/register/catalogue/winter-2016">
+                    <img class="img-responsive img-fill offset-bottom-small init loaded" src="https://img.businessoffashion.com/300/168/cropcustomoffset_50_50/courses/register-interest/winter-semester.png" alt="Register your interest">
+                    <div class="thumbnail-mid-align-content">
+                        <div class="row">
+                            <h3 class="no-margin padded-horizontal thumbnail-heading medium-font serif t_text-size-xs-8">
+                                New Courses Coming Soon
+                            </h3>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+</div></div>
+
+        <!---->
+</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li group-dropdown="" class="dropdown">
+                        <a href="/fashion-week/" class="dropdown-toggle" aria-expanded="false">Fashion Week</a>
+                                            </li>
+                    <bof-professional-button class="visible-xs visible-sm"><!----><a ng-if="!$ctrl.premium" href="/memberships/packages?utm_source=BoF&amp;utm_medium=direct&amp;utm_content=HeaderButton&amp;utm_campaign=BoFProfessionalLaunch" class="small-font btn btn-premium margin-right-sm-2">
+    Join BoF Professional
+</a><!---->
+
+</bof-professional-button>
+                </ul>
+
+                <ul class="nav navbar-nav navbar-right hidden-xs hidden-sm show-when-fixed show" auth-login="" show-when-fixed="mainNav" ng-class="{premium: hasMembership}">
+                    <li><a fast-click="" href="javascript:void(0)" title="Search" class="nav-icon-link" ng-click="openModal()"><span ng-transclude=""></span><i class="icon-search"></i></a></li>
+                    <li><a title="Login" class="border-left border-left nav-icon-link sans-serif" ng-class="{'active': isLoggedIn, 'nav-icon-link--premium': premium }" ng-click="handleClick($event)" fast-click="" stop-propagation="" hide-premium-badge="true">    
+    <span ng-class="{'premium': premium, 'student': isStudent }" copy-token="">
+        <span class="bold-font"></span>
+        <!----><span ng-if="!userInitials"><i class="icon-profile"></i></span><!---->
+    </span>
+    <!---->
+</a></li>
+                </ul>
+            </div>
+        </div>
+
+                <div class="container relative  text-left">
+            <div class="c_app-user-menu  c_app-user-menu--move-down" ng-class="{'is-open': status}" stop-propagation="" name="user">
+
+        <!----><div ng-if="!user.id">
+        <div class="c_app-user-menu__header  c_app-user-menu__border-fix">
+            <span class="text-label-title--set-6  t_text-bold  cursor-pointer" ng-click="login($event)">Log In</span>
+        </div>
+
+        <div class="c_app-user-menu__header">
+            <span class="text-label-title--set-6  t_text-bold  cursor-pointer" ng-click="signup($event)">Sign Up</span>
+        </div>
+    </div><!---->
+
+        <!---->
+
+        <div class="c_app-user-menu__footer  clearfix">
+        <!-- we have not yet this feature -->
+        <!-- <span class="text-label-title--set-6  color-gray-dark">English
+            <i class="inline-block  small-font  color-gray-dark icon-sort-arrow"></i>
+        </span> -->
+
+        <span class="text-label--set-3  cursor-pointer  color-gray-dark" send-modal-message="feedback" source="menu">Feedback</span>
+
+        <!---->
+    </div>
+</div>
+        </div>
+    </nav>
+</div></div>
